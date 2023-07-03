@@ -1,0 +1,99 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+.body {
+  color: #f7f8f9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(99, 91, 37);
+}
+
+
+#notFound {
+  position: relative;
+  height: 100vh
+}
+
+#notFound .not-found {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.not-found {
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.4
+}
+
+.not-found .not-found-404 {
+  height: 190px
+}
+
+.not-found .not-found-404 h1 {
+  font-size: 146px;
+  font-weight: 700;
+  margin: 0;
+  color: #f6f7f8
+}
+
+.not-found .not-found-404 h1>span {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-image: url('https://colorlib.com/etc/404/colorlib-error-404-12/img/emoji.png');
+  background-size: cover;
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  z-index: -1
+}
+
+.not-found h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  color: #f6f7f8
+}
+
+.not-found p {
+  color: #99a1b3;
+  font-weight: 300
+}
+
+.not-found a {
+  display: inline-block;
+  padding: 12px 30px;
+  font-weight: 700;
+  background-color: #087ea4;
+  color: #f6f7f8;
+  border-radius: 40px;
+  text-decoration: none;
+  -webkit-transition: .2s all;
+  transition: .2s all
+}
+
+.not-found a:hover {
+  opacity: .8
+}
+
+@media only screen and (max-width: 767px) {
+  .not-found .not-found-404 {
+    height: 115px
+  }
+
+  .not-found .not-found-404 h1 {
+    font-size: 86px
+  }
+
+  .not-found .not-found-404 h1>span {
+    width: 86px;
+    height: 86px
+  }
+}
